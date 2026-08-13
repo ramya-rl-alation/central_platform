@@ -1,0 +1,9 @@
+name: central_platform
+version: '1.0.0'
+config-version: 2
+profile: default
+model-paths: ["models"]
+models:
+  central_platform:
+    +schema: KM_DBT
+    +materialized: table
