@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: raw
+    database: KM_DB
+    schema: KM_DBT
+    tables:
+      - name: customers
+      - name: orders
