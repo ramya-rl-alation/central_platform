@@ -5,5 +5,4 @@ profile: default
 model-paths: ["models"]
 models:
   central_platform:
-    +schema: KM_DBT
     +materialized: table
