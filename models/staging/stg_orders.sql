@@ -1,6 +1,5 @@
 SELECT
     id AS order_id,
     customer_id,
-    amount,
-    status
+    amount
 FROM {{ source('raw', 'orders') }}
